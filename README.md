@@ -1,6 +1,6 @@
-# SQL Cheat Sheet
+# SQL 
 
-Este repositorio proporciona una guía rápida y práctica para el lenguaje de programación SQL (Structured Query Language). Incluye una serie de carpetas organizadas por categorías y archivos SQL específicos con ejemplos detallados.
+¡Bienvenido al repositorio de SQL! Este recurso proporciona una guía rápida para el lenguaje de programación SQL (Structured Query Language). La estructura del repositorio se organiza en 2 carpetas, cada una enfocada en un conjunto específico de operaciones SQL, con archivos individuales que contienen ejemplos detallados.
 
 ## Contenido
 
