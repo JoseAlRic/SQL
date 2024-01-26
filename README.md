@@ -6,8 +6,6 @@ Este repositorio proporciona una guía rápida y práctica para el lenguaje de p
 
 ### 01_Statements
 - **00_SQL.sql**: Archivo principal que incluye la estructura básica de SQL.
-
-#### Sentencias SELECT
 - **01_select.sql**: Ejemplos de la sentencia `SELECT`.
 - **02_distinct.sql**: Uso de `DISTINCT` para obtener valores únicos.
 - **03_where.sql**: Filtrar resultados con la cláusula `WHERE`.
