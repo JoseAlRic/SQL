@@ -58,7 +58,7 @@ ORDENAR POR Varias columnas
 
 /*
 Usando ASC y DESC
-    La siguiente declaración SQL selecciona todos los clientes de la tabla "Clientes", ordenados de forma ascendente por "País" y descendente por la columna "Nombre de cliente":
+    La siguiente declaración SQL selecciona todos los clientes de la tabla "Customers", ordenados de forma ascendente por "Country" y descendente por la columna "CustomerName":
 
     Ejemplo*/
     SELECT * FROM Customers
