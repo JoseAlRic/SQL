@@ -10,7 +10,7 @@ Sintaxis
     VALUES (value1, value2, value3, ...);/*
 
     2. Si está agregando valores para todas las columnas de la tabla, no necesita especificar los nombres de las columnas en la consulta SQL. Sin embargo, asegúrese de que el orden de 
-    los valores sea el mismo que el de las columnas de la tabla. Aquí, la INSERT INTOsintaxis sería la siguiente:*/
+    los valores sea el mismo que el de las columnas de la tabla. Aquí, la sintaxis INSERT INTO sería la siguiente:*/
     INSERT INTO table_name
     VALUES (value1, value2, value3, ...);/*
 
