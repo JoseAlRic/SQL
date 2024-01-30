@@ -26,5 +26,5 @@ Base de datos:
 Seleccione TODAS las columnas
     Si desea devolver todas las columnas, sin especificar cada nombre de columna, puede utilizar la sintaxis  SELECT *:
 
-    Ejemplo: Devuelve todas las columnas de la tabla Clientes:*/
+    Ejemplo: Devuelve todas las columnas de la tabla Customers:*/
     SELECT * FROM Customers;
