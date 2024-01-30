@@ -5,7 +5,7 @@ SELECT DISTINCT Statement:
 
 
 Ejemplo
-    Seleccione todos los diferentes países de la tabla "Clientes":*/
+    Seleccione todos los diferentes países de la tabla "Customers":*/
     SELECT DISTINCT Country FROM Customers;/*
     Dentro de una tabla, una columna suele contener muchos valores duplicados; y a veces solo desea enumerar los valores diferentes (distintos).
 
