@@ -48,10 +48,10 @@ Declaraciones SQL
         4                   Around the Horn	                   Thomas Hardy	          120 Hanover Sq.	          London	           WA1 1DP	          UK
         5	              Berglunds snabbköp	            Christina Berglund	      Berguvsvägen 8	          Luleå	               S-958 22	         Sweden
 
-        La tabla anterior contiene cinco registros (uno para cada cliente) y siete columnas (ID de cliente, Nombre de cliente, Nombre de contacto, Dirección, Ciudad, Código postal y País).
+        La tabla anterior contiene cinco registros (uno para cada cliente) y siete columnas (CustomerID, CustomerName, ContactName, Address, City, PostalCode y Country).
 
     Manten eso en mente...
-        Las palabras clave SQL NO distinguen entre mayúsculas y minúsculas: selectes lo mismo que SELECT
+        Las palabras clave SQL NO distinguen entre mayúsculas y minúsculas: selecte lo mismo que SELECT
         En este tutorial escribiremos todas las palabras clave SQL en mayúsculas.
 
     ¿Punto y coma después de declaraciones SQL?
