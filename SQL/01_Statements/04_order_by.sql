@@ -49,7 +49,7 @@ Alfabéticamente DESC
 
 /*
 ORDENAR POR Varias columnas
-    La siguiente declaración SQL selecciona todos los clientes de la tabla "Clientes", ordenados por la columna "País" y "Nombre del cliente". Esto significa que ordena por País, pero si 
+    La siguiente declaración SQL selecciona todos los clientes de la tabla "Customers", ordenados por la columna "Country" y "CustomerName". Esto significa que ordena por País, pero si 
     algunas filas tienen el mismo País, las ordena por Nombre de Cliente:
 
     Ejemplo*/
