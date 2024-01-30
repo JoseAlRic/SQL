@@ -24,7 +24,7 @@ Base de datos
 
 
 INSERT IN 
-    Ejemplo: La siguiente declaración SQL inserta un nuevo registro en la tabla "Clientes":*/
+    Ejemplo: La siguiente declaración SQL inserta un nuevo registro en la tabla "Customers":*/
 
     INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
     VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');/*
@@ -42,14 +42,14 @@ INSERT IN
 
 Insertar datos solo en columnas especificadas
     También es posible insertar datos únicamente en columnas específicas.
-    La siguiente instrucción SQL insertará un nuevo registro, pero solo insertará datos en las columnas "Nombre del cliente", "Ciudad" y "País" (el ID del cliente se actualizará 
+    La siguiente instrucción SQL insertará un nuevo registro, pero solo insertará datos en las columnas "CustomerName", "City" y "Country" (el CustomerID se actualizará 
     automáticamente):
 
     Ejemplo*/
     INSERT INTO Customers (CustomerName, City, Country)
     VALUES ('Cardinal', 'Stavanger', 'Norway');/*
 
-        La selección de la tabla "Clientes" ahora se verá así:
+        La selección de la tabla "Customers" ahora se verá así:
 
         CustomerID	   CustomerName	        ContactName	             Address	               City	    PostalCode	 Country
         89	       White Clover Markets	  Karl Jablonski      305 - 14th Ave. S. Suite 3B     Seattle      98128	   USA
@@ -59,7 +59,7 @@ Insertar datos solo en columnas especificadas
 
 Insertar varias filas
     También es posible insertar varias filas en una declaración.
-    Para insertar varias filas de datos, utilizamos la misma INSERT INTOdeclaración, pero con varios valores:
+    Para insertar varias filas de datos, utilizamos la misma declaración INSERT INTO, pero con varios valores:
 
     Ejemplo*/
     INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
@@ -69,7 +69,7 @@ Insertar varias filas
     ('Tasty Tee', 'Finn Egan', 'Streetroad 19B', 'Liverpool', 'L1 0AA', 'UK');/*
     
     Asegúrese de separar cada conjunto de valores con una coma ,.
-        La selección de la tabla "Clientes" ahora se verá así:
+        La selección de la tabla "Customers" ahora se verá así:
 
             CustomerID	   CustomerName	        ContactName	             Address	               City	    PostalCode	 Country
             89	       White Clover Markets	  Karl Jablonski      305 - 14th Ave. S. Suite 3B     Seattle      98128	   USA
